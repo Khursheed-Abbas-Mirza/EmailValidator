@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/EmailValidator/static/css/main.4d5bcfe1.css",
+    "main.js": "/EmailValidator/static/js/main.80609c34.js",
+    "static/js/453.d0670476.chunk.js": "/EmailValidator/static/js/453.d0670476.chunk.js",
+    "static/media/load.gif": "/EmailValidator/static/media/load.a5d24e5b250214a43364.gif",
+    "index.html": "/EmailValidator/index.html",
+    "main.4d5bcfe1.css.map": "/EmailValidator/static/css/main.4d5bcfe1.css.map",
+    "main.80609c34.js.map": "/EmailValidator/static/js/main.80609c34.js.map",
+    "453.d0670476.chunk.js.map": "/EmailValidator/static/js/453.d0670476.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4d5bcfe1.css",
+    "static/js/main.80609c34.js"
+  ]
+}
