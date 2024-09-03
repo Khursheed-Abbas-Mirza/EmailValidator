@@ -13,7 +13,7 @@ a{
   align-items: center;
   justify-content: space-between;
   background-color: antiquewhite;
-  padding: 12px;
+  padding: 10px;
 }
 ul{
   display: flex;
@@ -38,14 +38,15 @@ ul>li>a:hover{
   font-size: 12px;
   justify-content: center;
   align-items: center;
+  position: sticky;
 }
-.container{
+.mycontainer{
   background-color: azure;
   max-width: 80vw;
   margin: auto;
   padding: 15px;
 }
-.container h1{
+.mycontainer h1{
   padding: 12px;
 }
 .btn{
@@ -58,14 +59,14 @@ ul>li>a:hover{
 }
 form input{
   padding: 6px;
-  width: 23vw;
+  width: 33vw;
   border-radius: 5px;
 }
 @media only screen and (max-width: 600px) {
   body{
     background-color: lightblue;
   }
-  .container{
+  .mycontainer{
     font-size: 12px;
 
   }
@@ -73,4 +74,13 @@ form input{
     flex-direction: column;
   }
   
+}
+.mydetails{
+  list-style: square;
+  display: block;
+}
+.active{
+  background-color: white;
+  text-decoration: underline;
+  border-radius: 5px;
 }

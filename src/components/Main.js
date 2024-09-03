@@ -13,12 +13,13 @@ const Main = () => {
         const result=await res.json()
         
         setresults(result)
+        console.log(results)
         setloading(false)
     }
     return (
     <>
-            <div className='mymain'>
-                <div className="container">
+            <div className='mymain '>
+                <div className="mycontainer my-5">
                     <h1>Enter your Email to Validate</h1>
                     <form >
                         <input type="text" id="username" name="username" required placeholder='Enter your Email'/>
@@ -30,8 +31,9 @@ const Main = () => {
                               <h2>Your results</h2>
                               {loading &&<Spinner/>}
                           <div>
-                            {Object.entries(results).map((ele)=>{
-                                return <p>{ele[0]} : {ele[1]}</p>
+                            {Object.entries(results).map((ele,index)=>{
+                               
+                                return <p key={index}>{ele[0]} : {typeof ele[1] === 'boolean'?`${ele[1] && true}`:ele[1]}</p>
                             })}
                           </div>
                         </div>
