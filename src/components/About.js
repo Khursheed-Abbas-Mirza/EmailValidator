@@ -31,7 +31,7 @@ Mailbox Verification:
         <li>email:<u><a href="mailto:khursheedabbasprofession14@gmail.com">user@Email</a></u></li><br/>
         <li>github:<u><a href="https://github.com/Khursheed-Abbas-Mirza">user@github</a></u></li><br/>
       </ul>
-      <h4><mark>We will Never ask any 'OTP' or any Kind of Credntials for Validations & We will never share data to third parties beware of fraudsters</mark></h4>
+      <h4><mark>We will Never ask any 'OTP' or any Kind of Credentials for Validations & We will never share data to third parties beware of fraudsters</mark></h4>
     </div>
     </>
    
