@@ -6,7 +6,7 @@ const Main = () => {
     const evalidate=async(e)=>{
         e.preventDefault()
         setloading(true)
-        const  key="ema_live_O3mW0mqProwbKw8GA1rzSXeWJvw3uuBCznhmWXnz"
+        const  key="ema_live_O3mW0mqProwbKw8GA1rzSXeWJhmWXnz"
         const email=document.getElementById('username').value
         const url=`https://api.emailvalidation.io/v1/info?apikey=${key}&email=${email}`
         const res=await fetch(url)
