@@ -6,7 +6,7 @@ const Main = () => {
     const evalidate=async(e)=>{
         e.preventDefault()
         setloading(true)
-        const  key="ema_live_LibI5TY03v4xCykFgQ62VtGqOot9nETwsO41evFa"
+        const  key="ema_live_O3mW0mqProwbKw8GA1rzSXeWJvw3uuBCznhmWXnz"
         const email=document.getElementById('username').value
         const url=`https://api.emailvalidation.io/v1/info?apikey=${key}&email=${email}`
         const res=await fetch(url)
@@ -30,6 +30,7 @@ const Main = () => {
 
                               <h2>Your results</h2>
                               {loading &&<Spinner/>}
+                              <p style={{color:results.state==="deliverable"?"green":"red", fontWeight:"bold",fontSize:"20px"}}>{results.state==="deliverable"?" Given Email is deliverable":" Given Email is not deliverable"}</p>
                           <div>
                             {Object.entries(results).map((ele,index)=>{
                                
